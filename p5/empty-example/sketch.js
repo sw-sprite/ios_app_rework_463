@@ -1,8 +1,12 @@
-let img_home, img_home, img_add, img_act, img_prof, img_search;
+let img_home, img_add, img_act, img_prof, img_search;
 let btn_home, btn_add, btn_act, btn_prof, btn_search;
 
 function preload() {
   img_home = loadImage('assets/IMG_2021.PNG');
+  img_add = loadImage('assets/IMG_2021.PNG');
+  img_act = loadImage('assets/IMG_2021.PNG');
+  img_prof = loadImage('assets/IMG_2021.PNG');
+  img_search = loadImage('assets/IMG_2021.PNG');
 }
 
 function setup() {
