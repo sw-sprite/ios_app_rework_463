@@ -3,10 +3,10 @@ let btn_home, btn_add, btn_act, btn_prof, btn_search;
 
 function preload() {
   img_home = loadImage('assets/IMG_2021.PNG');
-  img_add = loadImage('assets/IMG_2022.PNG');
+  img_add = loadImage('assets/IMG_2025.PNG');
   img_act = loadImage('assets/IMG_2023.PNG');
   img_prof = loadImage('assets/IMG_2024.PNG');
-  img_search = loadImage('assets/IMG_2025.PNG');
+  img_search = loadImage('assets/IMG_2022.PNG');
 }
 
 function setup() {
@@ -43,13 +43,13 @@ function load_search(){
 }
 
 function load_add(){
-  image(image_add, 0, 0, 900, 1600);
+  image(img_add, 0, 0, 900, 1600);
 }
 
 function load_prof(){
-  image(image_prof, 0, 0, 900, 1600);
+  image(img_prof, 0, 0, 900, 1600);
 }
 
 function load_act(){
-  image(image_act, 0, 0, 900, 1600);
+  image(img_act, 0, 0, 900, 1600);
 }
